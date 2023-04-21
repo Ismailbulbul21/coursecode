@@ -65,7 +65,7 @@ letter-spacing:6px;
 
 .container{
 
-height:110vh;
+height:90vh;
 padding: 20px;
 margin-left: 40px;
 margin-right: 40px;
@@ -211,19 +211,7 @@ width: 40%;
 
 }
 
-.icon {
 
-position: absolute;
-left: 0;
-top: 50px;
-padding: 1px -20px;
-}
-
- .logo{
-
-margin-left: 230px;
-font-size: 15px;
-}
 
 
 
