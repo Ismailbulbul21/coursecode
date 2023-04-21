@@ -94,7 +94,7 @@ width: 27%;
 
 
 .icon{
-color: blue;
+color:#fff;
 transition: .42s;
 
 }
@@ -260,8 +260,8 @@ height: 400px;
 
 .logo{
 
-margin-left: 120px;
-
+margin-left: 230px;
+font-size: 15px;
 }
 
 .logo:hover{
@@ -280,18 +280,22 @@ ul li{
     }
 
     button{
-margin-top: -20px;
-margin-left: 220px;
+
 
     }
 
 
 .icon {
 
-    margin-top: -100px;
-    margin-right:140px ;
-
+position: absolute;
+left: 0;
+top: 50px;
+padding: 1px -20px;
 }
+
+
+
+
 
 }
 
