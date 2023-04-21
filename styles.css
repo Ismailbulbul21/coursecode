@@ -66,7 +66,7 @@ letter-spacing:6px;
 
 .container{
 
-height: 90vh;
+height:90vh;
 padding: 20px;
 margin-left: 40px;
 margin-right: 40px;
@@ -93,7 +93,29 @@ width: 27%;
 }
 
 
+.icon{
+color: blue;
+transition: .42s;
 
+}
+
+#icons:hover{
+
+cursor: pointer;
+color: #111;
+
+}
+
+
+
+
+
+#icons {
+
+margin: 10px;
+
+
+}
 
 .hero-text h1 {
  font-weight: bold;
@@ -119,6 +141,7 @@ text-transform: uppercase;
 font-weight: 800;
 box-shadow: 0em -0.2rem oem #7e6969 inset;
 transition: .55s;
+margin-bottom: 60px;
 }
 
 button:hover{
@@ -135,17 +158,25 @@ transform: translate(-5px);
 .container{
 
 flex-direction: column;
-
+align-items: center;
 
 }
+
+
+
+
 
 .hero-text {
 width: 100%;
 
 
 }
+ .icon{
+margin-top:-25px ;
 
 
+ }
+ 
 
 }
 
@@ -169,7 +200,7 @@ width: 100%;
 
 .container{
 flex-direction: column;
-
+align-items: center;
 
 
 }
@@ -207,6 +238,14 @@ text-align: center;
 
 
 @media (max-width:670px){
+
+.container{
+
+margin-top: -20px;
+
+}
+
+
 .hero-text h1{
 
 font-size: 2rem;
@@ -242,9 +281,17 @@ ul li{
 
     button{
 margin-top: -20px;
-
+margin-left: 220px;
 
     }
+
+
+.icon {
+
+    margin-top: -100px;
+    margin-right:140px ;
+
+}
 
 }
 
