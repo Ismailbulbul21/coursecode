@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 
 
-body{background-image:linear-gradient(45deg,red,yellow) ;
+body{background-image:linear-gradient(45deg,lightblue,pink) ;
 
 
 }
@@ -65,7 +65,7 @@ letter-spacing:6px;
 
 .container{
 
-height:90vh;
+height:110vh;
 padding: 20px;
 margin-left: 40px;
 margin-right: 40px;
@@ -211,8 +211,19 @@ width: 40%;
 
 }
 
+.icon {
 
+position: absolute;
+left: 0;
+top: 50px;
+padding: 1px -20px;
+}
 
+ .logo{
+
+margin-left: 230px;
+font-size: 15px;
+}
 
 
 
